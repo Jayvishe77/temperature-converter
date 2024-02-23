@@ -52,5 +52,5 @@ function convertTemp() {
     }
 
     document.getElementById("outWindow").value = convertedTemp;
-    document.getElementById("result").textContent = ``;
+    document.getElementById("result").textContent = `${inputTemp}° ${inUnit} = ${convertedTemp}° ${outUnit}`;
 }
